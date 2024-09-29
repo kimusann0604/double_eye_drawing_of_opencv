@@ -53,4 +53,4 @@ image = cv2.ellipse(
 cv2.imshow("CarrotCake",image)
 cv2.waitKey(0)
 # 結果を表示
-cv2.destroyAllWindows()
+cv2.destroyAllWindows()　
