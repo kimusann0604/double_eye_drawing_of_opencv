@@ -5,13 +5,13 @@ import numpy as np
 # AWSのrekognitionのAPI読み込み
 rekognition_client = boto3.client(
     'rekognition',
-    aws_access_key_id='',
-    aws_secret_access_key='',
+    aws_access_key_id='Aa55209eb-e8e8-4496-9e15-1c09407977f5',
+    aws_secret_access_key='JVWKEfMKoSJtLeqrK1P4ezeTwlHo5iNOeXsxCmdk',
     region_name='ap-northeast-1'
 )
 
 # 顔のランドマークの値を表示させる
-with open('image_path', 'rb') as image_file:
+with open('201908060474 (1).jpg', 'rb') as image_file:
     image_bytes = image_file.read()
 
 response = rekognition_client.detect_faces(
