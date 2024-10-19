@@ -17,4 +17,4 @@ cv2.ellipse(
 cv2.imshow("Ellipse", img)
 
 cv2.waitKey(0)
-cv2.destroyAllWindows()      
+cv2.destroyAllWindows()  
