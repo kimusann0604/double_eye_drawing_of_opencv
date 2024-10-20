@@ -176,4 +176,4 @@ def main(image_path):
 
 
 # 実行
-main('201908070945.jpg')
+main('image_path')
